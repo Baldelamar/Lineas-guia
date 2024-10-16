@@ -25,7 +25,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toTopOf="@id/Linea1"
-        android:background="#2196F3">
+        android:background="@color/azul">
     </LinearLayout>
 
     <LinearLayout
@@ -36,7 +36,7 @@
         app:layout_constraintTop_toBottomOf="@id/Linea1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toTopOf="@id/Linea2"
-        android:background="#FFEB3B">
+        android:background="@color/amarillo">
 
     </LinearLayout>
 
@@ -52,7 +52,7 @@
         android:id="@+id/constraint1"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="#FF5722"
+        android:background="@color/naranja"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/Linea2"
         app:layout_constraintEnd_toEndOf="parent"
